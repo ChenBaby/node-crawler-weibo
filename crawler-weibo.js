@@ -1,5 +1,5 @@
-var request = require('request') //支持https 和重定向
-var cheerio = require('cheerio')
+const request = require('request') //支持https 和重定向
+const cheerio = require('cheerio')
 
 function getHtml () {
     request('https://s.weibo.com/top/summary?cate=realtimehot',function(error,response,body){
