@@ -4,14 +4,14 @@
 爬取微博的热搜榜页面的数据
 [微博热搜](https://s.weibo.com/top/summary?cate=realtimehot)
 
-# 依赖
+## 依赖
 ```
 const request = require('request')
 const cheerio = require('cheerio')
 ```
 
 
-# 发送请求
+## 发送请求
 https是nodeJS的原生模块，自身就可以用来构建服务器。 可以使用Get，来请求微博热搜的对应页面：
 ```
 const https = require('https');
@@ -50,7 +50,7 @@ request(url,function(error,response,data){
 });
 ```
 
-# html解析
+## html解析
 [cheerio](https://github.com/cheeriojs/cheerio)是nodejs的抓取页面模块，为服务器特别定制的，快速、灵活、实施的jQuery核心实现。适合各种Web爬虫程序。
 这样就能使用类似jQuery中的$对html信息进行操作
 
