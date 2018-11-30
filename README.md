@@ -50,7 +50,7 @@ request(url,function(error,response,data){
 });
 ```
 
-#html解析
+# html解析
 [cheerio](https://github.com/cheeriojs/cheerio)是nodejs的抓取页面模块，为服务器特别定制的，快速、灵活、实施的jQuery核心实现。适合各种Web爬虫程序。
 这样就能使用类似jQuery中的$对html信息进行操作
 
