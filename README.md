@@ -7,7 +7,6 @@
 # 依赖
 ```
 const request = require('request')
-
 const cheerio = require('cheerio')
 ```
 
@@ -31,6 +30,7 @@ https.get('https://s.weibo.com/top/summary?cate=realtimehot', (res) => {
 ```
 
 这里，我使用request模块，使用起来比较简单，同时支持https和重定向。
+
 `const request = require('request')`
 
 [request官网](https://github.com/request/request)
@@ -48,7 +48,6 @@ request(url,function(error,response,data){
     console.log('statusCode:', response && response.statusCode);
     console.log('body:', data);
 });
-
 ```
 
 #html解析
