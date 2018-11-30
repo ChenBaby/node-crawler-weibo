@@ -5,8 +5,14 @@
 [微博热搜](https://s.weibo.com/top/summary?cate=realtimehot)
 
 # 依赖
-`const request = require('request') //支持https 和重定向`
-`const cheerio = require('cheerio')`
+
+(```)
+const request = require('request')
+
+const cheerio = require('cheerio')
+
+(```)
+
 
 # 发送请求
 https是nodeJS的原生模块，自身就可以用来构建服务器。 可以使用Get，来请求微博热搜的对应页面：
